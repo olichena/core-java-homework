@@ -2,6 +2,7 @@ package fun.code4.cjh.ch03;
 
 /**
  * 下列程序会输出什么? 为什么?
+ * 会输出3！ 因为在main方法中只调用了输出3！这个方法
  */
 public class Test05 {
 

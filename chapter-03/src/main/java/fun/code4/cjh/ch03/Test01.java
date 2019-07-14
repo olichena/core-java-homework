@@ -15,11 +15,12 @@ public class Test01 {
 
     long l1 = i1;
 
-//    i1 = l1;
-//
-//    s1 = i1;
-//
-//    b1 = s1;
+//    (数据类型不同）
+    i1 = (int) l1;
+
+    s1 = (short)i1;
+
+    b1 = (byte)s1;
 
   }
 

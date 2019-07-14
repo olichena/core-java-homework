@@ -2,6 +2,9 @@ package fun.code4.cjh.ch03;
 
 /**
  * 下面程序输出是什么? 为什么?
+ * 条件成立 再输出I：-1
+ * FALSE||TRUE&&TRUE
+ * &&的优先级高于|| 所以先算与后或
  */
 public class Test06 {
   public static void main(String[] args) {
